@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navb {
+    background-color: #dc3546;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navizq {
+
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navizq a {
+    text-decoration: none;
+    width: 100px;
+    margin: 10px;
+    color: white;
+}
+
+
+.tienda {
+
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.home1 {
+    margin: 30px;
+    text-align: center;
+    p {
+        padding: 10px;
+    }
+}
+
+
+.contact1 {
+    margin: 30px;
+    text-align: center;
+    p {
+        padding: 10px;
+    }
+}
+
+.contact1 a{
+    background-color: #dc3546;
+    border: none;
+}

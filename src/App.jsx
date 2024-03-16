@@ -1,24 +1,18 @@
-import { Routes,Route } from 'react-router'
-
-
+import Navigation from './components/Navigation'
 import Home from './views/Home'
 import Contact from './views/Contact'
-import NotFound from './views/NotFound'
-
-import Navbar1 from './components/Navbar'
 
 
+import './App.css'
+import { Route, Routes } from 'react-router'
 
 function App() {
-
-
   return (
     <>
-      <Navbar1/>
+      <Navigation/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="*" element={<NotFound/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
       </Routes>
     </>
   )
